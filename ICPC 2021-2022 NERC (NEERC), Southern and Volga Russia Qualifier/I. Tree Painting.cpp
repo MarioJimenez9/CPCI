@@ -12,6 +12,8 @@ using T = int;
 #define pb push_back
 #define fore(i,a,b) for(int i=a,to=b;i<to;i++)
 
+// O(n)
+
 int subA[200005], parent[200005], color[200005];
 vector<int> g[200005];
 

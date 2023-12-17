@@ -13,6 +13,7 @@ using T = long long;
 #define fore(i,a,b) for(int i=a,to=b;i<to;i++)
 
 // O(nlog(n))
+
 int main(){
     double n;
     cin>>n;

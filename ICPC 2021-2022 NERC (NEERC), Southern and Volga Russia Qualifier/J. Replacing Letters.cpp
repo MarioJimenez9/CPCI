@@ -12,6 +12,8 @@ using T = int;
 #define pb push_back
 #define fore(i,a,b) for(int i=a,to=b;i<to;i++)
 
+// O(nlog(n))
+
 pair<int, string> getLIS(string s, int n){
     vector<int> prevIdx(n, -1);
     vector<int> tailIdx(1, 0);

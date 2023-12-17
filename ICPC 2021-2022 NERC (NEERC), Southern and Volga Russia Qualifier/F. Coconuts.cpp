@@ -12,6 +12,8 @@ using T = long long;
 #define pb push_back
 #define fore(i,a,b) for(int i=a,to=b;i<to;i++)
 
+// O(sqrt(mx)*log(mx))
+
 int main(){
     int n;
     cin>>n;

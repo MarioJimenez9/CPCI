@@ -12,8 +12,8 @@ using T = int;
 #define pb push_back
 #define fore(i,a,b) for(int i=a,to=b;i<to;i++)
 
-
 // O(1)
+
 int main(){
     double a, b;
     cin>>a>>b;

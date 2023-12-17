@@ -12,6 +12,8 @@ using T = int;
 #define pb push_back
 #define fore(i,a,b) for(int i=a,to=b;i<to;i++)
 
+
+// O(1)
 int main(){
     vi v(3);
     cin>>v[0]>>v[1]>>v[2];

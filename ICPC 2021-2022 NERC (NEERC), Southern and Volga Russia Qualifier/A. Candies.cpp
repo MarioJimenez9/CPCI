@@ -13,6 +13,7 @@ using T = int;
 #define fore(i,a,b) for(int i=a,to=b;i<to;i++)
 
 // O(n ^ 2)
+
 int main(){
     int n, a, b;
     cin>>n>>a>>b;
