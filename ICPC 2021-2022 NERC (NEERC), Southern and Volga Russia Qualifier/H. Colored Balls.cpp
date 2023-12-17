@@ -13,6 +13,21 @@ using T = int;
 #define fore(i,a,b) for(int i=a,to=b;i<to;i++)
 
 int main(){
+    vi v(3);
+    cin>>v[0]>>v[1]>>v[2];
+
+    sort(v.begin(), v.end());
+    if(!v[0] && !v[1]){
+        cout << "-1\n";
+        return 0;
+    }
+    if((v[1] - v[0]) % 2 || (v[2] - v[1]) % 2){
+        cout << "-1\n";
+        return 0;
+    }
+
+    int ans = (v[2] - v[1]) + (v[1] - v[0]) / 2;
+    cout << ans << "\n";
     
     return 0;
 }
